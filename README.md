@@ -1,5 +1,5 @@
 # Be_the_Space_Invaders
- 
+
 Control the Invaders.
 Create individual formations and fight Terran spaceships.
 Collect resources by shooting down Terrans and asteroids.
