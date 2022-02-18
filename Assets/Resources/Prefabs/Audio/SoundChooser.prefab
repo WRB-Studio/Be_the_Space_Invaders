@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5015554626629516289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7891140211731092856}
+  - component: {fileID: 4225348480104724207}
+  m_Layer: 0
+  m_Name: SoundChooser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7891140211731092856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5015554626629516289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 218.60283, y: 391.07846, z: -3.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4225348480104724207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5015554626629516289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1620bb165f5ee104ea5b93aefb61d3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu_music: {fileID: 8300000, guid: 693a8ae633dcaa54a92e72795bba513f, type: 3}
+  ingame_music: {fileID: 8300000, guid: ebd9d37f6cb8d5d4988360ec6feaeee7, type: 3}
+  gameOver_music: {fileID: 8300000, guid: 6de139454224ae641916ce0c54bb5b92, type: 3}
+  laserShot_Invader: {fileID: 8300000, guid: 74a2ca24e26b9a946bf974edbd07ca46, type: 3}
+  laserShot_Terran: {fileID: 8300000, guid: 618c2d1229b10dc489a81961ff30dd7e, type: 3}
+  bombShot_Invader: {fileID: 8300000, guid: e4eaadf3fdcd5a74fa96577813b18ed9, type: 3}
+  bombShot_Terran: {fileID: 8300000, guid: df84087a18e0a1e48b873d24b86ac785, type: 3}
+  missileShot_Invader: {fileID: 8300000, guid: 027a7cfaf42c6194ba6d7964b616d1b8, type: 3}
+  missileShot_Terran: {fileID: 8300000, guid: 02e03a99013e9eb439fb62a7471a86ea, type: 3}
+  laserHit: {fileID: 8300000, guid: 5b53339829e555945a87dab031e5604e, type: 3}
+  bombHit: {fileID: 8300000, guid: 3d2853b6bc3df344fbb948e69284a6ce, type: 3}
+  missileHit: {fileID: 8300000, guid: 3804c2d8504402546a56b85b9afc762a, type: 3}
+  explosion_Invader: {fileID: 8300000, guid: 1d83c375c128ed543bd4e6bcdc08c491, type: 3}
+  explosion_Terran: {fileID: 8300000, guid: b6d31e6b0fb6e954e910e8aa503bbdaa, type: 3}
+  explosion_Asteroid: {fileID: 8300000, guid: 91951578e901f66428a911e97477c2d7, type: 3}
+  activateShield: {fileID: 8300000, guid: 7258e685eb9a07d4f93aefc26021fa84, type: 3}
+  deactivateShield: {fileID: 8300000, guid: 805a3e2fe3446eb4f9932048c1f68073, type: 3}
+  shieldImpact: {fileID: 8300000, guid: a7f46f7ba90c6494e90e1e11b6ec552b, type: 3}
+  activateSupportSystem: {fileID: 8300000, guid: d64765c545427ce4f908cca731db65fb,
+    type: 3}
+  collectResources: {fileID: 8300000, guid: 5f1254409e1ba054fa65c743c5af9fb6, type: 3}
+  hyperdriveInvaders: {fileID: 8300000, guid: 253831288a67a704aa82d3f14872d948, type: 3}
+  hyperdriveTerrans: {fileID: 8300000, guid: d9cd25243d9b40e4fb5b132393bdf871, type: 3}
+  fillStationHPBar: {fileID: 8300000, guid: 3216a723e1de129438efa64e1776688c, type: 3}
+  gameOver: {fileID: 8300000, guid: b708b725963e06f4083ecf127e93017a, type: 3}
+  scoreCount: {fileID: 8300000, guid: 3a5c27d9423c55d49b476c37da8c0881, type: 3}
+  openPopup: {fileID: 8300000, guid: 7a35d9ac2d71e834b9fc4fa8e0fac3b8, type: 3}
+  sceneSwitch: {fileID: 8300000, guid: 59ee4dccc81df714788a58a3ce4dce63, type: 3}
+  dragInvader: {fileID: 8300000, guid: c8dafc6f2209e3544ba8a3350686237f, type: 3}
+  successfullInvaderDrop: {fileID: 8300000, guid: 9823ec60c2d166f448cd429cbec05210,
+    type: 3}
+  failedInvaderDrop: {fileID: 8300000, guid: c8f9946fd834cf04587b2e5879e7cf74, type: 3}
+  buyInvader: {fileID: 8300000, guid: 71d14c3e3be87e0409d9b2df08cc0e42, type: 3}
+  upgradeInvader: {fileID: 8300000, guid: 7c9233166e2757e45bbc5a726a1ac3a8, type: 3}
+  cantUpgradeOrBuy: {fileID: 8300000, guid: 23a87fe0b1250d748bcc09636db5f3cb, type: 3}
+  buyFormationSlot: {fileID: 8300000, guid: 8f603748cd4261b44aba4027eb6617c8, type: 3}
+  removeFormation: {fileID: 8300000, guid: c3b6e758926b45f41a7d936edf0cd36d, type: 3}

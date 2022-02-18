@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &539192856304885187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1175972956834003931}
+  m_Layer: 0
+  m_Name: WeaponEmitter (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1175972956834003931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539192856304885187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.87, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730628587956380047}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1154865452269535153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5639956425031861464}
+  m_Layer: 0
+  m_Name: WeaponEmitter (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5639956425031861464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154865452269535153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.56, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730628587956380047}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2425426480421182217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8969857107147907644}
+  m_Layer: 0
+  m_Name: WeaponEmitter (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8969857107147907644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2425426480421182217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730628587956380047}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3801857883883278896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8949469917145938598}
+  m_Layer: 0
+  m_Name: WeaponEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8949469917145938598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801857883883278896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.161, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730628587956380047}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7184209834501427079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730628587956380047}
+  - component: {fileID: 7058181841561529298}
+  - component: {fileID: 2254059509896202864}
+  - component: {fileID: 8040063863649881350}
+  - component: {fileID: 3249391951989218619}
+  m_Layer: 0
+  m_Name: Laser Battleship
+  m_TagString: Terran
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1730628587956380047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184209834501427079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8949469917145938598}
+  - {fileID: 5639956425031861464}
+  - {fileID: 8781348345956242355}
+  - {fileID: 8969857107147907644}
+  - {fileID: 1175972956834003931}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7058181841561529298
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184209834501427079}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: fbaf07c45c661d7438272399dddb52cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.5, y: 2.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 2
+  m_SpriteSortPoint: 0
+--- !u!114 &2254059509896202864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184209834501427079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40fbf75b66379ac4d8335e203434522a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  shipClass: 3
+  level: 1
+  hitpoints: 30
+  maxSpeed: 0.9
+  speed: 0.4
+  rotationSpeed: 0
+  weapons:
+  - weapon: {fileID: 3210307985542429572, guid: 6b349651010dc3948b9b4c57f45bcbcb,
+      type: 3}
+    emitterTransform: {fileID: 8949469917145938598}
+    cooldownMin: 0.2
+    cooldownDefaultLVL1: 4.5
+    speedMax: 5
+    speedDefaultLVL1: 1.3
+    damageMultipliesOf: 1
+    damageDefaultLVL1: 4
+    shieldHitpointsMultiplier: 0
+    shieldTimeMax: 0
+    shieldTimeDefaultLVL1: 0
+    effectDurationMax: 0
+    effectDurationDefaultLVL1: 0
+    hitpointsPerSecMultipliesOf: 0
+    hitpointsPerSecDefaultLVL1: 0
+    dronesQuantityMax: 0
+    dronesQuantityMultipliesOf: 0
+    dronesQuantityDefaultLVL1: 0
+    resourceExtractionMultipliesOf: 0
+    resourceExtractionDefaultLVL1: 0
+  - weapon: {fileID: 3210307985542429572, guid: 6b349651010dc3948b9b4c57f45bcbcb,
+      type: 3}
+    emitterTransform: {fileID: 5639956425031861464}
+    cooldownMin: 0.2
+    cooldownDefaultLVL1: 4.75
+    speedMax: 5
+    speedDefaultLVL1: 1.3
+    damageMultipliesOf: 1
+    damageDefaultLVL1: 4
+    shieldHitpointsMultiplier: 0
+    shieldTimeMax: 0
+    shieldTimeDefaultLVL1: 0
+    effectDurationMax: 0
+    effectDurationDefaultLVL1: 0
+    hitpointsPerSecMultipliesOf: 0
+    hitpointsPerSecDefaultLVL1: 0
+    dronesQuantityMax: 0
+    dronesQuantityMultipliesOf: 0
+    dronesQuantityDefaultLVL1: 0
+    resourceExtractionMultipliesOf: 0
+    resourceExtractionDefaultLVL1: 0
+  - weapon: {fileID: 3210307985542429572, guid: 6b349651010dc3948b9b4c57f45bcbcb,
+      type: 3}
+    emitterTransform: {fileID: 8781348345956242355}
+    cooldownMin: 0.2
+    cooldownDefaultLVL1: 5
+    speedMax: 5
+    speedDefaultLVL1: 1.3
+    damageMultipliesOf: 1
+    damageDefaultLVL1: 4
+    shieldHitpointsMultiplier: 0
+    shieldTimeMax: 0
+    shieldTimeDefaultLVL1: 0
+    effectDurationMax: 0
+    effectDurationDefaultLVL1: 0
+    hitpointsPerSecMultipliesOf: 0
+    hitpointsPerSecDefaultLVL1: 0
+    dronesQuantityMax: 0
+    dronesQuantityMultipliesOf: 0
+    dronesQuantityDefaultLVL1: 0
+    resourceExtractionMultipliesOf: 0
+    resourceExtractionDefaultLVL1: 0
+  - weapon: {fileID: 3210307985542429572, guid: 6b349651010dc3948b9b4c57f45bcbcb,
+      type: 3}
+    emitterTransform: {fileID: 1175972956834003931}
+    cooldownMin: 0.2
+    cooldownDefaultLVL1: 5.25
+    speedMax: 5
+    speedDefaultLVL1: 1.3
+    damageMultipliesOf: 1
+    damageDefaultLVL1: 4
+    shieldHitpointsMultiplier: 0
+    shieldTimeMax: 0
+    shieldTimeDefaultLVL1: 0
+    effectDurationMax: 0
+    effectDurationDefaultLVL1: 0
+    hitpointsPerSecMultipliesOf: 0
+    hitpointsPerSecDefaultLVL1: 0
+    dronesQuantityMax: 0
+    dronesQuantityMultipliesOf: 0
+    dronesQuantityDefaultLVL1: 0
+    resourceExtractionMultipliesOf: 0
+    resourceExtractionDefaultLVL1: 0
+  - weapon: {fileID: 3210307985542429572, guid: 6b349651010dc3948b9b4c57f45bcbcb,
+      type: 3}
+    emitterTransform: {fileID: 8969857107147907644}
+    cooldownMin: 0.2
+    cooldownDefaultLVL1: 5.5
+    speedMax: 5
+    speedDefaultLVL1: 1.3
+    damageMultipliesOf: 1
+    damageDefaultLVL1: 4
+    shieldHitpointsMultiplier: 0
+    shieldTimeMax: 0
+    shieldTimeDefaultLVL1: 0
+    effectDurationMax: 0
+    effectDurationDefaultLVL1: 0
+    hitpointsPerSecMultipliesOf: 0
+    hitpointsPerSecDefaultLVL1: 0
+    dronesQuantityMax: 0
+    dronesQuantityMultipliesOf: 0
+    dronesQuantityDefaultLVL1: 0
+    resourceExtractionMultipliesOf: 0
+    resourceExtractionDefaultLVL1: 0
+  score: 650
+  minScrapAmount: 18
+  maxScrapAmount: 25
+  explosionEffectPrefab: {fileID: 8187085090996787759, guid: 85b77d103f2322e4c8c3545e25b92927,
+    type: 3}
+--- !u!50 &8040063863649881350
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184209834501427079}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!60 &3249391951989218619
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7184209834501427079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.090909, y: 0.91157675}
+    newSize: {x: 8.5, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.0745739, y: -0.26260656}
+      - {x: 1.2254972, y: -0.25656962}
+      - {x: 1.4790484, y: -0.23845881}
+      - {x: 1.4428267, y: -0.15394177}
+      - {x: 1.4911222, y: -0.11168324}
+      - {x: 1.4911222, y: -0.06942472}
+      - {x: 1.4126421, y: -0.03924006}
+      - {x: 1.4911222, y: 0.093572445}
+      - {x: 1.4911222, y: 0.10564631}
+      - {x: 1.4850852, y: 0.12979405}
+      - {x: 1.3220881, y: 0.25656962}
+      - {x: 0.5010654, y: 0.28071734}
+      - {x: 0.34410512, y: 0.35919747}
+      - {x: -0.06640625, y: 0.37730825}
+      - {x: -0.356179, y: 0.4376776}
+      - {x: -0.7727273, y: 0.4376776}
+      - {x: -0.802912, y: 0.41956678}
+      - {x: -0.8632813, y: 0.37730825}
+      - {x: -1.3220881, y: 0.37730825}
+      - {x: -1.4971591, y: 0.29279122}
+      - {x: -1.5213069, y: 0.23242189}
+      - {x: -1.5213069, y: 0.081498586}
+      - {x: -1.418679, y: 0.033203125}
+      - {x: -1.5213069, y: -0.12375711}
+      - {x: -1.5213069, y: -0.23242189}
+      - {x: -1.4790484, y: -0.28675428}
+      - {x: -1.3281251, y: -0.3833452}
+      - {x: -0.8451705, y: -0.4376776}
+      - {x: -0.356179, y: -0.4376776}
+      - {x: -0.06640625, y: -0.37730825}
+      - {x: 0.35014206, y: -0.35919747}
+      - {x: 0.5010654, y: -0.26864347}
+--- !u!1 &7731678048147116391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8781348345956242355}
+  m_Layer: 0
+  m_Name: WeaponEmitter (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8781348345956242355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7731678048147116391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730628587956380047}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

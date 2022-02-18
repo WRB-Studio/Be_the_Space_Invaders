@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7617337499500976450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7617337499500976451}
+  - component: {fileID: 7617337499500976452}
+  m_Layer: 0
+  m_Name: TerranShipHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7617337499500976451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617337499500976450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7617337499500976452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617337499500976450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d106a1a33db21947ab488c550a0e58a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startStage: 1
+  spawnSpecificShip: {fileID: 0}
+  txtLevelInfo: {fileID: 0}
+  showLevelInfos: 0
+  hyperdrivePrefab: {fileID: 6454425113904425347, guid: 193b6722b32c617478e8153d36cd566f,
+    type: 3}
+  currentStage: 0
+  spawnListIndex: -1
+  spawnListByLevel:
+  - level: 1
+    spawnshipID: 01000000
+  - level: 2
+    spawnshipID: 02000000
+  - level: 3
+    spawnshipID: 03000000
+  - level: 4
+    spawnshipID: 04000000
+  - level: 5
+    spawnshipID: 05000000
+  - level: 6
+    spawnshipID: 0200000002000000
+  - level: 7
+    spawnshipID: 0300000003000000
+  - level: 8
+    spawnshipID: 0400000004000000
+  - level: 9
+    spawnshipID: 0500000005000000
+  - level: 10
+    spawnshipID: 06000000
+  - level: 11
+    spawnshipID: 0100000002000000
+  - level: 12
+    spawnshipID: 0100000003000000
+  - level: 13
+    spawnshipID: 0100000004000000
+  - level: 14
+    spawnshipID: 0100000005000000
+  - level: 15
+    spawnshipID: 07000000
+  - level: 16
+    spawnshipID: 020000000100000002000000
+  - level: 17
+    spawnshipID: 020000000100000003000000
+  - level: 18
+    spawnshipID: 020000000100000004000000
+  - level: 19
+    spawnshipID: 020000000100000005000000
+  - level: 20
+    spawnshipID: 08000000
+  - level: 21
+    spawnshipID: 030000000200000002000000
+  - level: 22
+    spawnshipID: 030000000200000003000000
+  - level: 23
+    spawnshipID: 030000000200000004000000
+  - level: 24
+    spawnshipID: 030000000600000005000000
+  - level: 25
+    spawnshipID: 09000000
+  - level: 26
+    spawnshipID: 04000000010000000200000001000000
+  - level: 27
+    spawnshipID: 04000000020000000200000001000000
+  - level: 28
+    spawnshipID: 04000000030000000200000001000000
+  - level: 29
+    spawnshipID: 04000000050000000200000001000000
+  - level: 30
+    spawnshipID: 0a000000
+  - level: 31
+    spawnshipID: 05000000010000000100000002000000
+  - level: 32
+    spawnshipID: 05000000020000000100000002000000
+  - level: 33
+    spawnshipID: 05000000030000000200000002000000
+  - level: 34
+    spawnshipID: 05000000050000000200000002000000
+  - level: 35
+    spawnshipID: 0b000000
+  - level: 36
+    spawnshipID: 0100000001000000010000000100000001000000
+  - level: 37
+    spawnshipID: 0200000002000000020000000200000002000000
+  - level: 38
+    spawnshipID: 0300000003000000020000000200000002000000
+  - level: 39
+    spawnshipID: 0400000004000000040000000200000002000000
+  - level: 40
+    spawnshipID: 090000000a0000000b000000
+  - level: 41
+    spawnshipID: 0500000005000000050000000200000002000000
+  - level: 42
+    spawnshipID: 0500000005000000040000000400000002000000
+  - level: 43
+    spawnshipID: 0200000002000000020000000200000002000000
+  - level: 44
+    spawnshipID: 0000000006000000060000000500000005000000
+  - level: 45
+    spawnshipID: 090000000a0000000b0000000600000008000000
+  - level: 46
+    spawnshipID: 020000000200000002000000020000000100000001000000
+  - level: 47
+    spawnshipID: 040000000400000004000000040000000200000002000000
+  - level: 48
+    spawnshipID: 050000000500000005000000050000000200000002000000
+  - level: 49
+    spawnshipID: 090000000900000009000000060000000600000006000000
+  - level: 50
+    spawnshipID: 0a0000000a0000000b0000000b0000000800000008000000
